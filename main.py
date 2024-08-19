@@ -285,7 +285,7 @@ if __name__ == "__main__":
         exit(1)
 
     # Check if the port number matches the one expected by Cyclic
-    port = int(os.environ.get('PORT', 3000))
+    port = int(os.environ.get('PORT', 8000))
 
     # Start the Flask application
     app.run(host="0.0.0.0", port=port)
